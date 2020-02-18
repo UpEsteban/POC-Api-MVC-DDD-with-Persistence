@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Bravent.MultiDatabaseAPI.Domain.Shared\Bravent.MultiDatabaseAPI.Domain.Shared.csproj" />
+    <ProjectReference Include="..\Bravent.MultiDatabaseAPI.Infrastructure\Bravent.MultiDatabaseAPI.Infrastructure.csproj" />
+    <ProjectReference Include="..\Bravent.MultiDatabaseAPI.ServiceContracts\Bravent.MultiDatabaseAPI.ServiceContracts.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+  </ItemGroup>
+</Project>

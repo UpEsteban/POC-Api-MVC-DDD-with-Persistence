@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="Bravent.MultiDatabaseAPI.Infrastructure.Persistence.MongoDB.Implementation" Version="1.0.1" />
+    <PackageReference Include="Bravent.MultiDatabaseAPI.Infrastructure.Shared" Version="1.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Bravent.MultiDatabaseAPI.Domain.Shared\Bravent.MultiDatabaseAPI.Domain.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
